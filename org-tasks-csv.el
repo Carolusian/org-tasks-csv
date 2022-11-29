@@ -164,6 +164,7 @@ properties."
              ","))
 
 
+;;;###autoload
 (defun org-tasks-csv (&optional infile no-switch use-current)
   "Export task entries from INFILE to CSV format.
 When INFILE is a filename or list of filenames, export clock
@@ -194,6 +195,7 @@ use the current buffer for INFILE."
       (switch-to-buffer buffer))))
 
 
+;;;###autoload
 (defun org-tasks-csv-to-file (outfile &optional infile use-current)
   "Write task entries from INFILE to OUTFILE in CSV format.
 See `org-tasks-csv' for additional details."
