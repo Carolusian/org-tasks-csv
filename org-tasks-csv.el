@@ -182,7 +182,7 @@ use the current buffer for INFILE."
                    infile))
          (filelist (if (null infile) (org-agenda-files)
                      (if (listp infile) infile (list infile))))
-         (buffer (get-buffer-create "*clock-entries-csv*"))
+         (buffer (get-buffer-create "*task-entries-csv*"))
          (entries (org-tasks-csv--get-entries filelist)))
     (with-current-buffer buffer
       (goto-char 0)
