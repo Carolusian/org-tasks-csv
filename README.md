@@ -1,6 +1,6 @@
 # Export Task Entries from org-mode to CSV
 
-`org-tasks-csv` is a package for you to export your org-mode TODO tasks into csv. It is inspired by the package [`org-clock-csv`](https://github.com/atheriel/org-clock-csv) from Aaron Jacobs.
+`org-tasks-csv` is a package for you to export your org-mode todo/done tasks into csv. It is inspired by the package [`org-clock-csv`](https://github.com/atheriel/org-clock-csv) from Aaron Jacobs.
 
 ## Installation
 
